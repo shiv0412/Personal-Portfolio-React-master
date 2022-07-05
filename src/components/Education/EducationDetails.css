@@ -1,0 +1,29 @@
+.educate_icon{
+    height:45px;
+    width:45px;
+    position: absolute;
+    left: -25px;
+  }
+  .educcontainer{
+    display: flex;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-left: 1px dashed orange;
+    position: relative;
+  }
+  .headtext{
+    font-weight: bold;
+    color:orange;
+    font-size: 20px;
+    padding: 10px 0px 5px 50px;
+  }
+  .year_text{
+    font-size: 12px;
+    padding-left:50px;
+  }
+
+  @media (max-width:480px){
+    .headtext{
+      font-size: 18px;
+    }
+  }
